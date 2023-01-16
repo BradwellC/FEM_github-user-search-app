@@ -1,0 +1,16 @@
+{
+  "name": "fem-github-user-search-app",
+  "version": "1.0.0",
+  "description": "Github search app for Frontend Mentor Challenge",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded public/scss:public/css",
+    "sass-prod": "sass --no-source-map --style=compressed public/scss:public/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}

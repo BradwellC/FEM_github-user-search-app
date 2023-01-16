@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./public/img/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | GitHub user search app</title>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/00645e87e4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container_header">
+        <div class="header_brand">devfinder</div>
+
+        <button id="dark-mode">
+          Dark <img src="./public/img/icon-moon.svg" alt="" />
+        </button>
+      </div>
+
+      <div class="container_form">
+        <div class="formSearch">
+          <img src="./public/img/icon-search.svg" alt="">
+          <input class="input" type="text" placeholder="Search Github username...">
+        </div>
+        <button class="btn" type="submit">Search</button>
+      </div>
+
+      <div class="container_user">
+        <div class="user_header">
+          <div class="user_img"></div>
+          <div class="userInfo">
+            <div class="userGithub"></div>
+            <div class="githubUsername"></div>
+            <div class="joinedDate"></div>
+          </div>
+        </div>
+        <div class="user_info">
+          <div class="user_bio"></div>
+
+          <div class="user_repos">
+            <div class="repos">
+              <div class="repoTitle">Repos</div>
+              <div class="repoTotal">0</div>
+            </div>
+            <div class="followers">
+              <div class="followerTitle">Followers</div>
+              <div class="followerTotal">0</div>
+            </div>
+            <div class="following">
+              <div class="followingTitle">Following</div>
+              <div class="followingTotal">0</div>
+            </div>
+          </div>
+
+          <div class="user_social">
+            <div class="locations">
+              <img src="./public/img/icon-location.svg" alt="">
+              <p class="location"></p>
+            </div>
+            <div class="twits">
+              <img src="./public/img/icon-twitter.svg" alt="">
+              <p class="twit"></p>
+            </div>
+            <div class="websites">
+              <img src="./public/img/icon-website.svg" alt="">
+              <p class="website"></p>
+            </div>
+            <div class="companies">
+              <img src="./public/img/icon-company.svg" alt="">
+              <p class="company"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./public/js/main.js"></script>
+  </body>
+</html>
